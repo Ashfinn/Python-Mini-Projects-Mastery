@@ -1,4 +1,4 @@
-#Basic of Python Programming
+# Basic of Python Programming
 # Variables and basic data types
 name = "Arafat"  # String variable
 age = 25  # Integer variable
@@ -11,8 +11,11 @@ else:
     print(f"{name} is an adult.")
 
 # Function with parameters and return value
+
+
 def greet(person_name):
     return f"Hello, {person_name}!"
+
 
 # Calling the function
 print(greet(name))
