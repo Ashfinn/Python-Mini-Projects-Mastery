@@ -1,12 +1,12 @@
-# Define the Menu of Restaurant 
+# Define the Menu of Restaurant
 menu = {
-    'Pizza': 40,
-    'Salad': 50,
-    'Apple': 60,
-    'Curry': 70,
-    'Lemonade': 10,
-    'Samosas': 20,
-    'Chicken': 150,
+    "Pizza": 40,
+    "Salad": 50,
+    "Apple": 60,
+    "Curry": 70,
+    "Lemonade": 10,
+    "Samosas": 20,
+    "Chicken": 150,
 }
 
 # Greet the customer
@@ -26,7 +26,8 @@ else:
     print(f"Sorry, '{item_1}' is not currently available!")
 
 # Ask if they want to add another item
-another_order = input("Do you want to add another item? (Yes/No): ").strip().lower()
+another_order = input(
+    "Do you want to add another item? (Yes/No): ").strip().lower()
 # .strip() removes any extra spaces at the beginning or end
 # .lower() converts the input to lowercase, so 'YES', 'yes', or 'Yes' are treated the same
 if another_order == "yes":
@@ -40,4 +41,3 @@ if another_order == "yes":
 # Display the total bill
 print(f"Your total bill is BDT{order_total}.")
 # Project 2 - MD Arafat Koyes
-
