@@ -5,6 +5,7 @@
 This repository contains a collection of Python mini-projects designed to enhance your coding skills and mastery of Python. Each project is crafted to cover key programming concepts, algorithms, and real-world applications.
 
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -25,8 +26,8 @@ This repository contains a collection of Python mini-projects designed to enhanc
 - **KanyeQuotes**  
   This project gets random quotes from Kanye West using an API and shows them. It's a fun and easy way to see Kanye's unique thoughts. This will allow you to understand API's.
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/arafdewann/Python-Mini-Projects-Mastery.svg?style=for-the-badge
 [contributors-url]: https://github.com/arafdewann/Python-Mini-Projects-Mastery/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/arafdewann/Python-Mini-Projects-Mastery.svg?style=for-the-badge
