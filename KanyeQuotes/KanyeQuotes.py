@@ -9,6 +9,7 @@ def fetch_quote():
     response.raise_for_status()  # Check if the request was successful
     return response.json()["quote"]  # Get the quote from the data
 
+
 # This is the main part of the program
 
 
