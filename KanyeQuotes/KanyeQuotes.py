@@ -4,6 +4,7 @@ import requests  # This lets us get data from the internet
 
 
 def fetch_quote():
+    """ """
     # Get data from the Kanye API
     response = requests.get("https://api.kanye.rest")
     response.raise_for_status()  # Check if the request was successful
@@ -14,6 +15,7 @@ def fetch_quote():
 
 
 def main():
+    """ """
     try:
         print(f"Kanye says: {fetch_quote()}")  # Print the quote from Kanye
     except requests.RequestException as e:
